@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.Listeners"/>	
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.Country_Selection"/>
+      <class name="testcases.Create_Account_Test"/>
+      <class name="testcases.Shopby_department_test"/>
+      <class name="testcases.Shopby_Brand_Test"/>
+      <class name="testcases.Validate_footerlinks_test"/>
+      <class name="testcases.Validateurl_Test"/>
+      <class name="testcases.Payment_Test"/>
+      <class name="testcases.Signin_Test"/>
+      <class name="testcases.Menuvalidation_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
